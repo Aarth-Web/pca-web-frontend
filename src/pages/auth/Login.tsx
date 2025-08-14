@@ -163,13 +163,6 @@ const Login: React.FC = () => {
           >
             {loading ? <Spinner /> : "Sign In"}
           </Button>
-
-          <div className="mt-4 text-center">
-            <p className="text-xs text-gray-500">
-              Super Admin: 9765482996 / superadmin@pca <br />
-              Shop Admin: 9987654321 / shopadminpass
-            </p>
-          </div>
         </form>
       </div>
     </div>
